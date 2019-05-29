@@ -35,7 +35,7 @@ def create_app(config_name):
 
     # Initializing flask extensions
     bootstrap.init_app(app)
-    app.config['SQLALCHEMY_DATABASE_URI'] ="postgresql+psycopg2://mohammed:edil2011@localhost/pitch"
+    app.config['SECRET_KEY'] ="SECRET_KEY"
     db.init_app(app)
     login_manager.init_app(app)
     mail.init_app(app)
