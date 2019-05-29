@@ -12,7 +12,7 @@ To pitch on the idea
 To be able to read more on the news i have selected
 ## Behaviour Driven Development
 Behaviour |	Input |	Output
-|------|-----|
+|----|----
 user logs in |	chooses on category|	pitches on a idea
 feedback|	upvote downvote	|give a comment
 ## SetUp / Installation Requirements
